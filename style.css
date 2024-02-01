@@ -1,0 +1,158 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+
+  header {
+    background-color: #3399cc;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .upper {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    background-color: #aed1e6;
+    color: #4e342e;
+  }
+
+  .left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 22%;
+    padding: 0px;
+    text-align: left;
+    background-color: #d2b48c;
+  }
+
+  .upper-right {
+    width: 54%;
+    text-align: left;
+  }
+  .upper-right,.right-upper{
+    background-color: #f5f5f5;
+  }
+
+  .lower {
+    display: flex;
+  }
+
+  .lower-left {
+    background-color: #d2b48c;
+    width: 20%;
+    padding: 20px;
+  }
+
+  .right-lower,
+  .lower-right {
+    width: 40%;
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+
+  img {
+    width: 155px;
+  border-radius: 5%;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  margin-left: 50px;
+  transition: transform 0.5s ease-in-out;
+  }
+
+  img:hover {
+    transform: scale(1.1);
+  }
+
+  .details {
+    line-height: 1.6;
+    text-align: left;
+  }
+
+  h1:hover {
+    transform: scale(1.1);
+    color: #8b008b;
+  }
+
+  h1 {
+    font-size: 40px;
+    margin-bottom: 0;
+    margin-left: 330px;
+    color: #333;
+    transition: color 0.6s ease;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  .animated {
+    animation: fadeIn 1s ease-out;
+  }
+
+  .about-me,
+  .education,
+  .languages,
+  .computer-skills,
+  .work-experience,
+  .skills,
+  .projects,
+  .extra-activities {
+    margin-bottom: 20px;
+  }
+
+  h2 {
+color: #043198c8;
+font-size: 20px;
+border: 0px solid #000;
+padding: 4px;
+background-color: #bb9e9e; /* You can adjust the background color as needed */
+}
+
+  p {
+    color: #333;
+    text-align: justify;
+    transition: color 0.4s ease, transform 0.3s ease-in-out;
+  }
+
+  p:hover {
+    color: #228b22;
+    transform: scale(1.05, 1);
+  }
+
+  #me,#mee{
+    color: #043198c8;
+font-size: 20px;
+border: 0px solid #000;
+padding: 4px;
+background-color: #7a7f80;
+  }
+
+  #web {
+    text-align: left;
+    font-size: 20px;
+    margin-top: 0;
+    margin-left: 524px;
+    padding: 0;
+    
+    color: #333;
+    font-weight: bold;
+  }
+  ul{
+    padding-inline-start: 23px;
+    margin-inline: 0%;
+  }
+  li{
+    margin-bottom: 10px;
+  }
+  
